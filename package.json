@@ -2,9 +2,10 @@
   "name": "firstserver",
   "version": "1.0.0",
   "description": "This is the first time creating my own nodejs server.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -13,7 +14,10 @@
   "author": "RohanGodha",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RohanGodha/firstserver/issues"
+    "url": "https://github.com/RohanGodha/firstserver"
   },
-  "homepage": "https://github.com/RohanGodha/firstserver#readme"
+  "homepage": "https://github.com/RohanGodha/firstserver.git",
+  "dependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
