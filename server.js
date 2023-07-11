@@ -1,5 +1,5 @@
 const http= require("http");
-//package name and importing of it
+//package name and importing of it and it can handle request of https too
 
 const port = 8081;
 //localport number
